@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+li {
+    float: left;
+}
+
+li a { /* add a */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 2em;
+    font-family:  "Courier New", monospace; 
+}
+
+/*
+ul li:hover {
+    height: 100%;
+    background-color:#cc0000;
+    opacity: 0.05;
+}*/
+
+#navi {
+    position: relative;
+    margin-left: 80%;
+}
+
+#q1 {
+    text-align: center;
+    font-family:  "Courier New", monospace; 
+
+}
