@@ -1,0 +1,123 @@
+body{
+    
+    font-family:  "Courier New", monospace;
+    color: rgba(0, 0, 0, 0.452);
+    overflow: scroll;
+     
+}
+
+#navbar{
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.navbar-brand h1{
+    font-weight: bold;  
+}
+
+#smallNav ul{
+    text-align: center;
+    padding:0;
+}
+
+#smallNav li{
+    display: inline-block;
+}
+
+
+#content{
+    background-color: cadetblue;
+    color:white;
+}
+
+#content #proPic{
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 70%;
+    margin-top: 2em;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 10em white; 
+    padding-bottom:7em;
+    padding-top:1em;
+    padding-left:1em;
+    padding-right:1em;
+    float: right;
+    align-self: end;
+}
+
+#content #allcon{
+    margin-left:10%;
+    margin-top:20%;
+}
+
+#program {
+    margin-top:2em;
+}
+
+#skill{
+    align-content: center;
+}
+
+footer{
+    margin-top:2em;
+    color:rgba(0, 0, 0, 0.24);
+    background-color: #ececec;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    #content #profilePic{
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    #content #allcon{
+        margin-top: 5%;
+        margin-left:0;
+    }
+
+    #quote h1{
+        text-align: center;
+    }
+
+    #info {
+        padding-left: 20%;
+    }
+
+    #program h1{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #name h1{
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    #navbarBrand{
+        margin:auto;
+    }
+    #quote h1{
+        font-size: 1.4em;
+    }
+
+    #program h1{
+        font-size:1.7em;
+    }
+    
+
+}
+
+@media screen and (max-width:576px) {
+    #content #profilePic{
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
