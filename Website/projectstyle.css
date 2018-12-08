@@ -1,0 +1,71 @@
+body{
+    
+    font-family:  "Courier New", monospace;
+    color: rgba(0, 0, 0, 0.452);
+    overflow: scroll;
+     
+}
+
+#navbar{
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.navbar-brand h1{
+    font-weight: bold;  
+}
+
+#smallNav ul{
+    text-align: center;
+    padding:0;
+}
+
+#smallNav li{
+    display: inline-block;
+}
+
+
+
+footer{
+    margin-top:2em;
+    color:rgba(0, 0, 0, 0.24);
+    background-color: #ececec;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1210px){
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    #name h1 {
+        width: 100%;
+        font-size: 1em;
+        margin-bottom: 0px;
+    }
+
+    #navbarBrand{
+        margin:auto;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+    
+    
+
+}
+
+@media screen and (max-width:576px) {
+    #navbar h1{
+        padding-bottom:0;
+    }
+}
+
