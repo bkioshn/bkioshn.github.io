@@ -1,0 +1,19 @@
+#program {
+	margin-top: 2em;
+}
+
+#skill {
+	align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+	#program h1 {
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	#skill p {
+		font-size: 0.8em;
+	}
+}

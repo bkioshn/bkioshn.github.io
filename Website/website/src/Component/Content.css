@@ -1,0 +1,76 @@
+#content {
+	background-color: cadetblue;
+	color: white;
+}
+
+#content #proPic {
+	border: 5px solid white;
+	border-radius: 4px;
+	width: 70%;
+	margin-top: 2em;
+	background-clip: content-box;
+	box-shadow: inset 0 0 0 10em white;
+	padding-bottom: 7em;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: right;
+	align-self: end;
+}
+
+#content #allcon {
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+@media screen and (max-width: 1210px) {
+	#content #quote h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#content #profilePic {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+	#content #allcon {
+		margin-top: 5%;
+		margin-left: 0;
+	}
+
+	#content #quote h1 {
+		text-align: center;
+	}
+
+	#info {
+		padding-left: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#content #quote h1 {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	#content #profilePic {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	#content #allcon h1 {
+		font-size: 1em;
+	}
+
+	#content #allcon p {
+		font-size: 0.8em;
+	}
+
+	#content #info {
+		padding-left: 10%;
+	}
+}
