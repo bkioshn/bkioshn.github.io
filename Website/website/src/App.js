@@ -3,7 +3,9 @@ import './App.css';
 import Header from './Component/Header';
 import Content from './Component/Content';
 import BottomContent from './Component/BottomContent';
+import Project from './Component/Project';
 import Footer from './Component/Footer';
+
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <Header />
         <Content />
         <BottomContent />
+        <br />
+        <Project />
         <Footer />
       </div>
     );
